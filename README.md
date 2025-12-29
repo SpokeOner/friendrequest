@@ -34,8 +34,8 @@ pip install -r requirements.txt
 ```
 
 3. Configure your input files:
-   - Add your Roblox authentication cookies to `input/cookies.txt` (one per line)
-   - Add your proxy addresses to `input/proxies.txt` (one per line, format: `http://user:pass@host:port`)
+   - Add your Roblox authentication cookies to `cookies.txt` (one per line)
+   - Add your proxy addresses to `proxies.txt` (one per line, format: `http://user:pass@host:port`)
 
 ## Usage
 

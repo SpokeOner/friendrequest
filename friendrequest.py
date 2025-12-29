@@ -245,13 +245,13 @@ class PerformanceTracker:
 
 def load_resources() -> Tuple[List[str], List[str]]:
     try:
-        with open("input/proxies.txt", "r", encoding="utf-8") as f:
+        with open("proxies.txt", "r", encoding="utf-8") as f:
             proxy_list = [p.strip() for p in f.read().splitlines() if p.strip()]
     except FileNotFoundError:
         proxy_list = []
     
     try:
-        with open("input/cookies.txt", "r", encoding="utf-8") as f:
+        with open("cookies.txt", "r", encoding="utf-8") as f:
             cookie_list = [c.strip() for c in f.read().splitlines() if c.strip()]
     except FileNotFoundError:
         cookie_list = []

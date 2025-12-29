@@ -1,6 +1,6 @@
 # Private data
-input/cookies.txt
-input/proxies.txt
+cookies.txt
+proxies.txt
 
 # Python
 __pycache__/
